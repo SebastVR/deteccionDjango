@@ -1,0 +1,351 @@
+tipo,codigo,descripcion
+Señal reglamentaria ,sr-01 ,pare      
+Señal reglamentaria ,sr-02 ,ceda el paso 
+Señal reglamentaria ,sr-03 ,siga de frente
+Señal reglamentaria ,sr-04 ,no pase
+Señal reglamentaria ,sr-05 ,giro a la izquierda solamente
+Señal reglamentaria ,sr-06   ,prohibido girar a a la izquierda  
+Señal reglamentaria ,sr-07 ,giro a la derecha solamente 
+Señal reglamentaria ,sr-08 ,prohibido girar a la derecha
+Señal reglamentaria ,sr-09,giro en u solamente
+Señal reglamentaria ,sr-10 ,prohibido girar en “u”
+Señal reglamentaria ,sr-11,doble via 
+Señal reglamentaria ,sr-12 ,tres carriles uno en contraflujo 
+Señal reglamentaria ,sr-13  ,tres carriles dos en contraflujo
+Señal reglamentaria ,sr-14 ,prohibido el cambio de calzada izquierda derecha
+Señal reglamentaria ,sr-14a ,prohibido el cambio de calzada derecha izquierda
+Señal reglamentaria ,sr-16 ,circulacion prohibida de vehiculos automotores 
+Señal reglamentaria ,sr-17 ,vehiculos pesados a la derecha 
+Señal reglamentaria ,sr-18 ,circulacion prohibida de vehiculos de carga 
+Señal reglamentaria ,sr-19 ,peatones a la izquierda 
+Señal reglamentaria ,sr-20 ,circulacion prohibida de peatones 
+Señal reglamentaria ,sr-21 ,circulacion prohibida de cabalgaduras 
+Señal reglamentaria ,sr-22 ,circula cion prohibida de bicicletas 
+Señal reglamentaria ,sr-23,circulacion prohibida de motocicletas 
+Señal reglamentaria ,sr-24,circulacion prohibida de maquinaria agricola 
+Señal reglamentaria ,sr-25 ,circulacion prohibida de vehiculos de traccion animal
+Señal reglamentaria ,sr-26 ,prohibido adelantar
+Señal reglamentaria ,sr-28 ,prohibido parquear
+Señal reglamentaria ,sr-28a,no parquear ni detenerse
+Señal reglamentaria ,sr-29 ,prohibido pitar 
+Señal reglamentaria ,sr-30 ,velocidad maxima permitida
+Señal reglamentaria ,sr-30a ,velocidad minima permitida   
+Señal reglamentaria ,sr-30b ,velocidad maxima permitida salida 
+Señal reglamentaria ,sr-31 ,peso maximo total permitido 
+Señal reglamentaria ,sr-32 ,altura maxima permitida 
+Señal reglamentaria ,sr-33,ancho maximo permitido 
+Señal reglamentaria ,sr-34  ,zona de estacionamiento de taxi  
+Señal reglamentaria ,sr-35,circulación con luces bajas  
+Señal reglamentaria ,sr-36 ,retén 
+Señal reglamentaria ,sr-38 ,sentido unico de circulacion  
+Señal reglamentaria ,sr-39,sentido de circulacion doble 
+Señal reglamentaria ,sr-40 ,paradero     
+Señal reglamentaria ,sr-41 ,prohibido dejar o recoger pasajeros 
+Señal reglamentaria ,sr-42 ,zona de cargue y descargue
+Señal reglamentaria ,sr-43 ,prohibido el cargue y descargue
+Señal reglamentaria ,sr-44,conservar espaciamiento 
+Señal reglamentaria ,sr- 45 , indicacion separador de transito a la izquierda
+Señal reglamentaria ,sr-46,indicacion separador de transito a la derecha
+Señal reglamentaria ,sr-47,no bloquear cruce 
+Señal reglamentaria ,sr-48 ,fin prohibicion de adelantamiento
+Señal reglamentaria ,sr-49 ,preferencia al sentido contrario 
+Señal reglamentaria ,sr-50,prohibido girar a la derecha con luz roja
+Señal reglamentaria ,sr-51 ,circulacion prohibida de carros de mano 
+Señal reglamentaria ,sr-52,circulacion prohibida de buses 
+Señal reglamentaria ,sr-53 ,circulacion prohibida de motocarros 
+Señal reglamentaria ,sr-54 ,circulacion prohibida de cuantrimotos 
+Señales reglamentarias-Facilidades para ciclistas,src-01 ,conserve la derecha 
+Señales reglamentarias-Facilidades para ciclistas,src-02 ,obligatorio descender de la bicicleta 
+Señales reglamentarias-Facilidades para ciclistas,src-03,circulacion no compartida 
+Señales reglamentarias-Facilidades para ciclistas,src-04 ,circulacion prohibida de mascostas 
+Señales reglamentarias-Facilidades para ciclistas,src-05 ,circulacion compartida
+Señales reglamentarias-Facilidades para motociclistas,srm-01 ,solo motocicletas 
+Señal Preventiva,sp-01 ,curva cerrada a la izquierda
+Señal Preventiva,sp-02 ,curva cerrada a la derecha 
+Señal Preventiva,sp-03 ,curva pronunciada a la izquierda 
+Señal Preventiva,sp-04 ,curva pronunciada a la derecha
+Señal Preventiva,sp-05 ,curva y contra curva cerrrada primera a la izquierda
+Señal Preventiva,sp-06 ,curva y contra curva cerrrada primera a la derecha
+Señal Preventiva,sp-07,zona de curvas sucesivas a la primera a la izquierda
+Señal Preventiva,sp-08 ,zona de curvas sucesivas a la primera a la derecha
+Señal Preventiva,sp-09 ,curva y contracurva pronunciada primera a la izquierda
+Señal Preventiva,sp-10 ,curva y contracurva pronunciada primera a la derecha
+Señal Preventiva,sp-11 ,interseccion de vias 
+Señal Preventiva,sp-12,via lateral izquierda 
+Señal Preventiva,sp-13 ,via lateral derecha
+Señal Preventiva,sp-14,interseccion en t
+Señal Preventiva,sp-15 ,interseccion en “y”
+Señal Preventiva,sp-16 ,bifurcacion a la izquierda 
+Señal Preventiva,sp-17 ,bifurcacion a la derecha
+Señal Preventiva,sp-18 ,interseccion escalonada primera a la izquierda 
+Señal Preventiva,sp-19 ,interseccion escalonada primera a la derecha
+Señal Preventiva,sp-20 ,glorieta 
+Señal Preventiva,sp-21 ,incorporacion de transito a la izquierda 
+Señal Preventiva,sp-22 ,incorporacion de transito a la derecha
+Señal Preventiva,sp-23,proximidad de semaforo
+Señal Preventiva,sp-24 ,superficie rizada 
+Señal Preventiva,sp-25 ,proximidad de resalto
+Señal Preventiva,sp-25a ,ubicacion de resalto   
+Señal Preventiva,sp-26 ,depresion
+Señal Preventiva,sp-27 ,pendiente fuerte de descenso 
+Señal Preventiva,sp-27a ,pendiente fuerte de ascenso  
+Señal Preventiva,sp-28 ,reduccion de calzada a ambos lados 
+Señal Preventiva,sp-29 ,proximidad de señal “pare” 
+Señal Preventiva,sp-30 ,reduccion de la calzada a la izquierda
+Señal Preventiva,sp-31 ,reduccion de la calzada a la derecha
+Señal Preventiva,sp-32 ,ensanchamento simetrico de la calzada 
+Señal Preventiva,sp-33 ,proximida de señal “ceda el paso”
+Señal Preventiva,sp-34,ensanchamiento de la calzada a la izquierda
+Señal Preventiva,sp-35 ,ensanchamiento de la calzada a la derecha
+Señal Preventiva,sp-36 ,puente angosto
+Señal Preventiva,sp-37 ,tunel 
+Señal Preventiva,sp-38 ,peso maximo bruto vehicular permitido
+Señal Preventiva,sp-39 ,dos sentidos de transito   
+Señal Preventiva,sp-41 ,"tres carriles de transito, uno en contraflujo"
+Señal Preventiva,sp-42,zona de derrumbes 
+Señal Preventiva,sp-43 ,"tres carriles de transito, dos en contraflujo"
+Señal Preventiva,sp-44,superficie deslizante 
+Señal Preventiva,sp-45 ,maquina agricola en la via
+Señal Preventiva,sp-46 ,zona de peatones 
+Señal Preventiva,sp-46a ,proximidad de cruce peatonal 
+Señal Preventiva,sp-46b ,ubicacion de cruce peatonal
+Señal Preventiva,sp-47 ,zona escolar 
+Señal Preventiva,sp-47a ,proximidad de cruce escolar 
+Señal Preventiva,sp-47b ,ubicacion de cruce escolar 
+Señal Preventiva,sp-48 ,niños jugando 
+Señal Preventiva,sp-49 ,animales en la via 
+Señal Preventiva,sp-50,altura libre
+Señal Preventiva,sp-51 ,ancho libre   
+Señal Preventiva,sp-52 ,cruce a nivel    
+Señal Preventiva,sp-52a ,cruce ferroviario a nivel con barreras 
+Señal Preventiva,sp-53 ,barreras 
+Señal Preventiva,sp-54 ,cruz de san andrés 
+Señal Preventiva,sp-55 ,inicio de separador dos sentidos
+Señal Preventiva,sp-55a   ,inicio de separador un sentido  
+Señal Preventiva,sp-56 ,final de via con separador dos sentidos
+Señal Preventiva,sp-56a ,final de via con separador un sentido 
+Señal Preventiva,sp-57 ,final del pavimento    
+Señal Preventiva,sp-59 ,ciclistas en la via  
+Señal Preventiva,sp-59a,cruce de ciclistas  
+Señal Preventiva,sp-59b  ,ubicacion de cruce de ciclistas 
+Señal Preventiva,sp-67 ,riesgo de accidente 
+Señal Preventiva,sp-68 ,conservar espaciamiento
+Señal Preventiva,sp-69 ,curva muy cerrada a la izquierda
+Señal Preventiva,sp-70  ,curva muy cerrada a la derecha 
+Señal Preventiva,sp-71 ,proyeccion de gravilla 
+Señal Preventiva,sp-72 ,salida de vehiculos de bomberos 
+Señal Preventiva,sp-73 ,rafagas de viento lateral  
+Señal Preventiva,sp-74 ,desnivel severo      
+Señal Preventiva,sp-75 ,delineador curva horizontal    
+Señales preventivas-Facilidades para ciclistas,spc-01 ,vehiculos cicloruta    
+Señales preventivas-Facilidades para ciclistas,spc-02 ,descenso fuerte     
+Señales preventivas-Facilidades para ciclistas,spc-03,ascenso fuerte    
+Señal informativa,inf,descripcion
+Señal informativas-Facilidades para ciclistas,sic-01 ,nombre o codigo de la ciclorruta 
+Señal informativas-Facilidades para ciclistas,sic-02 ,direccion de la ciclorruta 
+Señal informativas-Facilidades para ciclistas,sic-03 ,cicloparqueadero   
+Señal informativas-Facilidades para ciclistas,sic-04,fin de cicloruta  
+Señal informativas-Facilidades para ciclistas,sic-05 ,inicio ciclorruta    
+Señal informativas-Facilidades para ciclistas,sic-06 ,zona compartida ciclistas-peatones  
+Señal informativas-Facilidades para ciclistas,sic-07 ,inicio de ciclobanda 
+Señal informativas-Facilidades para ciclistas,sic-08 ,fin de ciclobanda  
+Señal informativas-Facilidades para motociclistas,sim-01 ,inicio motovia
+Señal informativas-Facilidades para motociclistas,sim-02 ,fin motovia      
+Señales servicios generales y especiales,si-07 ,sitio de parqueo 
+Señales servicios generales y especiales,si-07a ,zona especial de parqueo 
+Señales servicios generales y especiales,si-08,paradero de buses 
+Señales servicios generales y especiales,si-09 ,estacionamiento de taxis
+Señales servicios generales y especiales,si-10,transbordador 
+Señales servicios generales y especiales,si-11 ,via para ciclistas
+Señales servicios generales y especiales,si-13 ,zona militar      
+Señales servicios generales y especiales,si-14 ,aeropuerto 
+Señales servicios generales y especiales,si-15 ,hospedaje     
+Señales servicios generales y especiales,si-16 ,primeros auxilios    
+Señales servicios generales y especiales,si-17 ,servicios sanitarios   
+Señales servicios generales y especiales,si-18 ,restaurante       
+Señales servicios generales y especiales,si-19,telefono 
+Señales servicios generales y especiales,si-20 ,iglesia  
+Señales servicios generales y especiales,si-21 ,taller    
+Señales servicios generales y especiales,si-22,estacion de servicio 
+Señales servicios generales y especiales,si-23,montallantas 
+Señal informativas de servicios generales ,si-25 ,discapacitados    
+Señal informativas de servicios generales ,si-25a ,cruce de personas con discapacidad visual 
+Señal informativas de servicios generales ,si-27 ,seguridad vial 
+Señal informativas de servicios generales ,si-29 ,transporte ferroviario     
+Señal informativas de servicios generales ,si-30 ,transporte masivo 
+Señal informativas de servicios generales ,si-31 ,zona recreativa
+Señal informativas de servicios generales ,si-32 ,tsunami ruta de evacuacion
+Señal informativas de servicios generales ,si-33 ,riesgo por tsunami 
+Señal informativas de servicios generales ,si-34 ,punto de encuentro por tsunami 
+Señal Turistica,st-01 ,zona de camping 
+Señal Turistica,st-02 ,playa 
+Señal Turistica,st-03 ,museo    
+Señal Turistica,st-04 ,muelle
+Señal Turistica,st-05 ,zoologico
+Señal Turistica,st-06 ,punto de informacion turistica 
+Señal Turistica,st-07 ,artesanias 
+Señal Turistica,st-08 ,bienes arqueologicos 
+Señal Turistica,st-09 ,lago 
+Señal Turistica,st-10 ,polideportivo 
+Señal Turistica,st-11,mirador 
+Señal Turistica,st-12,alquiler de autos 
+Señal Turistica,st-13 ,atractivo natural 
+Señal Turistica,st-14 ,volcan 
+Señal Turistica,st-15,nevado 
+Señal Turistica,st-16,termal
+Señal Turistica,st-17 ,cascada 
+Señal Turistica,st-18 ,pesca 
+Señal Turistica,st-19 ,arrecife coralino  
+Señal Turistica,st-20 ,caverna 
+Señal Turistica,st-21 ,paramo      
+Señal Turistica,st-22 ,rio   
+Señal Turistica,st-23 ,parque nacional natural 
+Señal Turistica,st-24 ,observatorio de flora y fauna 
+Señal Turistica,st-25 ,sendero para excursionistas 
+Señal Turistica,st-26 ,parapente 
+Señal Turistica,st-27 ,escalada 
+Señal Turistica,st-28,rafting 
+Señal Turistica,st-29,comunidad 
+Señal Turistica,st-30 ,monumento nacional 
+Señalizacion de tuneles ,sit-01 ,salida de emergencia a la izquierda 
+Señalizacion de tuneles ,sit-02 ,salida de emergencia a la derecha 
+Señalizacion de tuneles ,sit-03 ,ruta de escape a salida de emergencia a la izquierda
+Señalizacion de tuneles ,sit-04 ,ruta de escape a salida de emergencia a la derecha
+Señalizacion de tuneles ,sit-05 ,telefono de emergencia  
+Señalizacion de tuneles ,sit-06 ,extintor de incendios    
+Señalizacion de tuneles ,sit-07,hidrante y manguera para apagar incendios 
+Señalizacion de tuneles ,sit-08 ,bahia de estacionamiento para emergencias 
+Señalizacion de tuneles ,sit-09 ,sistema de radio dedicado   
+Señalizacion de seguridad y medidas para obras en la via,spo-01 ,trbajos en la via   
+Señalizacion de seguridad y medidas para obras en la via,spo-02 ,maquinaria en la via    
+Señalizacion de seguridad y medidas para obras en la via,spo-03 ,auxiliar de transito     
+Señalizacion de seguridad y medidas para obras en la via,spo-04  ,angostamiento a ambos lados   
+Señalizacion de seguridad y medidas para obras en la via,spo-05 ,angostamiento a la derecha    
+Señalizacion de seguridad y medidas para obras en la via,spo-06  ,angostamiento a la izquierda  
+Señalizacion de seguridad y medidas para obras en la via,sio-03 ,fin de obra    
+Señalizacion de seguridad y medidas para obras en la via,sio-05 ,desvio a xxx m   
+Señalizacion de seguridad y medidas para obras en la via,sio-07 ,desvio    
+Señalizacion de seguridad y medidas para obras en la via,sio-08 ,fin desvio    
+Señalizacion de seguridad y medidas para obras en la via,sio- 09 ,9 fin carril derecho 
+Señalizacion de seguridad y medidas para obras en la via,sio-10 ,fin carril derecho     
+Señalizacion de seguridad y medidas para obras en la via,sio-11,fin carril izquierdo   
+Señalizacion de seguridad y medidas para obras en la via,sio-12 ,fin carril izquierdo   
+Señalizacion de seguridad y medidas para obras en la via,sio-13 ,generacion carril derecho 
+Señalizacion de seguridad y medidas para obras en la via,sio-14 ,generacion carril izquierdo  
+Señalizacion de seguridad y medidas para obras en la via,sio-15,generacion carril izquierdo
+Señalizacion de seguridad y medidas para obras en la via,sio-16 ,generacion carril izquierdo
+Señalizacion de seguridad y medidas para obras en la via,sio-17 ,cambio de alineamiento lado derecho 
+Señalizacion de seguridad y medidas para obras en la via,sio-18,cambio de alineamiento lado derecho 
+Señalizacion de seguridad y medidas para obras en la via,sio-19 ,cambio de alineamiento lado izquierdo  
+Señalizacion de seguridad y medidas para obras en la via,sio-20,cambio de alineamiento lado izquierdo  
+Señalizacion de seguridad y medidas para obras en la via,sio-21 ,cambio de alineamiento calzada bidireccional  
+Señalizacion de seguridad y medidas para obras en la via,sio-22 ,cambio de alineamiento calzada bidireccional 
+Señalizacion de seguridad y medidas para obras en la via,sio-23 ,paradero de buses    
+Señalizacion de seguridad y medidas para obras en la via,sio-24,peatones 
+Señalizacion de seguridad y medidas para obras en la via,sio-25 ,semaforo apagado 
+Señalizacion de seguridad y medidas para obras en la via,sio-26 ,cruce peatonal   
+Señalizacion de seguridad y medidas para obras en la via,sro-01 ,fin vía cerrada     
+Señalizacion de seguridad y medidas para obras en la via,sro-03 ,uno a uno     
+Señalizacion de seguridad y medidas para obras en la via,sro-04 ,pare/siga
+Señalizacion de calles y carreteras afectadas por eventos especiales,pee-01 ,accidente 
+Señalizacion de calles y carreteras afectadas por eventos especiales,pee-02 ,bomberos       
+Señalizacion de calles y carreteras afectadas por eventos especiales,pee-03 ,desastre natural  
+Señalizacion de calles y carreteras afectadas por eventos especiales,pee-04 ,control de policia 
+"Capitulo 6 Dispositivos para peatones, ciclistas y motociclistas",dpcm-6.1-1,islas peatonales  
+"Capitulo 6 Dispositivos para peatones, ciclistas y motociclistas",dpcm-6.1-2,paso cebra en tramo de vía  
+"Capitulo 6 Dispositivos para peatones, ciclistas y motociclistas",dpcm-6.1-4,especificaciones de la baliza iluminada elevada     
+"Capitulo 6 Dispositivos para peatones, ciclistas y motociclistas",dpcm-6.1-6,señal informativa para peatones        
+"Capitulo 6 Dispositivos para peatones, ciclistas y motociclistas",dpcm-6.1-7.1 ,paso peatonal regulado por semáforo en tramo de vía pare 
+"Capitulo 6 Dispositivos para peatones, ciclistas y motociclistas",dpcm-6.1-7.2,paso peatonal regulado por semáforo en tramo de vía avance 
+"Capitulo 6 Dispositivos para peatones, ciclistas y motociclistas",dpcm-6.1-8,puente peatonal         
+"Capitulo 6 Dispositivos para peatones, ciclistas y motociclistas",dpcm-6.1-9 ,ubicación de pasos cebra en relación a paradas y zonas de estacionamiento
+"Capitulo 6 Dispositivos para peatones, ciclistas y motociclistas",dpcm-6.1-10 ,pasos peatonales     
+"Capitulo 6 Dispositivos para peatones, ciclistas y motociclistas",dpcm-6.1-11 ,pasos peatonales no regulados por semáforos       
+"Capitulo 6 Dispositivos para peatones, ciclistas y motociclistas",dpcm-6.1-12 ,paso peatonal regulado por semáforo en vía secundaria  
+"Capitulo 6 Dispositivos para peatones, ciclistas y motociclistas",dpcm-6.1-13 ,paso peatonal regulado por semáforo en vía prioritaria
+"Capitulo 6 Dispositivos para peatones, ciclistas y motociclistas",dpcm-6.1-14 ,ubicación de pasos peatonales respecto de glorietas y miniglorietas   
+"Capitulo 6 Dispositivos para peatones, ciclistas y motociclistas",dpcm-6.1-15 ,paso peatonal regulado por semáforo con isla peatonal     
+"Capitulo 6 Dispositivos para peatones, ciclistas y motociclistas",dpcm-6.1-16 ,ejemplos de vallas peatonales        
+"Capitulo 6 Dispositivos para peatones, ciclistas y motociclistas",dpcm-6.2-3 ,línea de eje central continua     
+"Capitulo 6 Dispositivos para peatones, ciclistas y motociclistas",dpcm-6.2-4 ,líneas de eje central segmentado        
+"Capitulo 6 Dispositivos para peatones, ciclistas y motociclistas",dpcm-6.2-5 ,ubicación de bolardos          
+"Capitulo 6 Dispositivos para peatones, ciclistas y motociclistas",dpcm-6.2-6 ,otras líneas longitudinales         
+"Capitulo 6 Dispositivos para peatones, ciclistas y motociclistas",dpcm-6.2-7,líneas longitudinales segmentadas         
+"Capitulo 6 Dispositivos para peatones, ciclistas y motociclistas",dpcm-6.2-8 ,cruce controlado por señal ceda el paso 
+"Capitulo 6 Dispositivos para peatones, ciclistas y motociclistas",dpcm-6.2-9 ,cruce controlado por señal pare
+"Capitulo 6 Dispositivos para peatones, ciclistas y motociclistas",dpcm-6.2-10 ,demarcación para intersección de vías con semáforos 
+"Capitulo 6 Dispositivos para peatones, ciclistas y motociclistas",dpcm-6.2-11,demarcación para intersección de ciclovías y vías con semáforos  
+"Capitulo 6 Dispositivos para peatones, ciclistas y motociclistas",dpcm-6.2-12 ,símbolo para demarcación en ciclorruta   
+"Capitulo 6 Dispositivos para peatones, ciclistas y motociclistas",dpcm-6.2-16 ,leyenda para ciclovía        
+"Capitulo 6 Dispositivos para peatones, ciclistas y motociclistas",dpcm-6.2-17 ,demarcaciones de divergencias y convergencias para ciclovía      
+"Capitulo 6 Dispositivos para peatones, ciclistas y motociclistas",dpcm-6.2-18-1 ,cabezales de semáforos para ciclistas para avanzar      
+"Capitulo 6 Dispositivos para peatones, ciclistas y motociclistas",dpcm-6.2-18-2 ,cabezales de semáforos para ciclistas para parar      
+"Capitulo 6 Dispositivos para peatones, ciclistas y motociclistas",dpcm-6.3-1 ,motovia inclusiva         
+"Capitulo 6 Dispositivos para peatones, ciclistas y motociclistas",dpcm-6.3-2 ,motovia exclusiva         
+Capitulo 9  Señalizacion para carriles exclusivos de bus ,ceb-9-1 ,calzada doble carril para buses    
+Capitulo 9  Señalizacion para carriles exclusivos de bus ,ceb-9-2,demarcaciones de carriles exclusivos de buses   
+Capitulo 9  Señalizacion para carriles exclusivos de bus ,ceb-9-3-4.1,lente de semáforo de buses pare      
+Capitulo 9  Señalizacion para carriles exclusivos de bus ,ceb-9-3-4.2 ,lente de semáforo de buses preparado para avanzar 
+Capitulo 9  Señalizacion para carriles exclusivos de bus ,ceb-9-3-4.3 ,lente de semáforo de buses avanzar   
+Capitulo 3 Demarcaciones en el piso,dmc-3-3 ,lineas longitudinales     
+Capitulo 3 Demarcaciones en el piso,dmc-3-5 ,lineas centrales segmentadas caso 1        
+Capitulo 3 Demarcaciones en el piso,dmc-3-7,lineas centrales continuas caso 1             
+Capitulo 3 Demarcaciones en el piso,dmc-3-9 ,lineas centrales continuas caso 1 
+Capitulo 3 Demarcaciones en el piso,dmc-3-11,lineas centrales continuas caso 5            
+Capitulo 3 Demarcaciones en el piso,dmc-3-13 ,lineas de carril segmentada caso 1 
+Capitulo 3 Demarcaciones en el piso,dmc-3-14 ,lineas de carril segmentada caso 2 
+Capitulo 3 Demarcaciones en el piso,dmc-3-15,lineas de carril segmentada caso 3
+Capitulo 3 Demarcaciones en el piso,dmc-3-16,lineas de carril segmentada caso 4
+Capitulo 3 Demarcaciones en el piso,dmc-3-17 ,demarcaciones de continuidad de carries en interseccion 
+Capitulo 3 Demarcaciones en el piso,dmc-3-18 ,zona de no adelantar curva vertical 
+Capitulo 3 Demarcaciones en el piso,dmc-3-19 ,zona de no adelantar curva horizontal 
+Capitulo 3 Demarcaciones en el piso,dmc-3-21,linea de borde de pavimento caso 2 
+Capitulo 3 Demarcaciones en el piso,dmc-3-22,linea de borde de pavimento caso 3 
+Capitulo 3 Demarcaciones en el piso,dmc-3-24  ,linea de borde de pavimento caso 5 
+Capitulo 3 Demarcaciones en el piso,dmc-3-26 ,lineas segmentadas de borde de calzada
+Capitulo 3 Demarcaciones en el piso,f3-47,"flecha de incorporación
+a carriles de tránsito exclusivo "
+Capitulo 3 Demarcaciones en el piso,f3-33,cruce cebra
+Capitulo 3 Demarcaciones en el piso,f3-30,cruce controlado por señal ceda el paso
+Capitulo 3 Demarcaciones en el piso,f3-28,cruce controlado por señal pare
+Capitulo 3 Demarcaciones en el piso,f3-46,dimensiones para demarcación con flechas
+Capitulo 3 Demarcaciones en el piso,f3-39,cruce escolar
+Capitulo 3 Demarcaciones en el piso,f3-32,cruce con restricción de bloqueo
+Capitulo 3 Demarcaciones en el piso,f3-31,cruce regulado por semáforo
+Capitulo 3 Demarcaciones en el piso,f3-44,demarcación de estacionamiento de taxis
+Capitulo 3 Demarcaciones en el piso,f3-48," ejemplo de demarcacion con
+flecha de frente y salida"
+Capitulo 3 Demarcaciones en el piso,f3-52,demarcación máxima velocidad
+Capitulo 3 Demarcaciones en el piso,f3-53,demarcación prohibido parquear
+Capitulo 3 Demarcaciones en el piso,f3-54,"demarcación de estacionamiento para
+personas con discapacidad"
+Capitulo 3 Demarcaciones en el piso,f3-55,dimensiones símbolo ciclorruta 
+Capitulo 3 Demarcaciones en el piso,f3-58, dimensiones demarcación cruce peatonal
+Capitulo 3 Demarcaciones en el piso,f3-64,dimensiones de achurado
+Capitulo 3 Demarcaciones en el piso,f3-65,demarcación de carriles exclusivos solo bus
+Capitulo 3 Demarcaciones en el piso,f3-66,reductor de velocidad
+Capitulo 5 Demarcaciones en el piso,etp-52,estoperol
+Capitulo 5 Demarcaciones en el piso,by-51,boya
+Capitulo 5 Demarcaciones en el piso,tch-53,tachón
+Capitulo 5 Demarcaciones en el piso,bdt-181,bordillo-traspasable
+Capitulo 5 Demarcaciones en el piso,bnt-182,bordillo-no-traspasable
+Capitulo 5 Demarcaciones en el piso,dlc-3,delineador-circular
+Capitulo 5 Demarcaciones en el piso,dlr-2d,delineador-rectangular
+Capitulo 5 Demarcaciones en el piso,dld-6b,delineador-doble
+Capitulo 5 Demarcaciones en el piso,cps-59,captafaros
+Capitulo 5 Demarcaciones en el piso,mc-12,marcador-cilindrico
+Capitulo 5 Demarcaciones en el piso,md-10,marcador-doble
+Capitulo 5 Demarcaciones en el piso,ms-11,marcador-sencillo
+Capitulo 5 Demarcaciones en el piso,hv-13,hito-vertice
+Capitulo 5 Demarcaciones en el piso,hl-14,hito-luminoso
+Capitulo 5 Demarcaciones en el piso,lit-15,luces-intermirentes
+Capitulo 5 Demarcaciones en el piso,dlt-17a,delineador-tubular
+Capitulo 5 Demarcaciones en el piso,tpv-23,tope vehicular
+Capitulo 5 Demarcaciones en el piso,lmg-24,limitador galibo
+Capitulo 5 Demarcaciones en el piso,rst-26,resalto-trapezoidal
+Capitulo 5 Demarcaciones en el piso,rsc-27,resalto-circular
+Capitulo 5 Demarcaciones en el piso,rsp-28,resalto-portatil
+Capitulo 5 Demarcaciones en el piso,rsc-30,resalto-cojin
+Capitulo 5 Demarcaciones en el piso,bnr-32,bandas-resaltadas
+Capitulo 5 Demarcaciones en el piso,bbr-33,bandas-bajo-relieve
+Capitulo 5 Demarcaciones en el piso,mts-35,mallas-tabiques

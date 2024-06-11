@@ -1,0 +1,40 @@
+
+@hostname = https://geopiragua.corantioquia.gov.co/api/v1
+@port = 8000
+@host = http://localhost:{{port}}/api/v1
+
+@contentType = application/json
+@contentTypeEncoded = application/x-www-form-urlencoded
+@client_id = 3oyF96Ib482Vq3iXG8BIQiFHz4OWU8pbzRvpc7eZ
+@client_secret = qLDVapZCf8rwREuY6uns8V46Rznlvx7V416VF2TfTEw89z3kO1tHWSTbSMQ2Foo21RiNLuEPe1eE12SPFHxCgfstXOWWBa0N1Wg2NYZ4CUtLAhMVNSwovaIWAorpDAf6
+@access_token = IeOF86dGyZDUFRNpF3izLfiI1Yu8QD
+@refresh_token = EZdoO09wz5wr1GuqT8MD16RoiZ962e
+
+################################
+# Client credentials
+@client_id2 = oMese0mihOjUcSooCBVBtK4P9taiUBJR1ztHOf2A
+@client_secret2 = 6sP3Ss8LIIbUWcrijo54Vqrpye3nwZVkpj5GXnD01W9x95VPFqUTvN8cEvENICIIiUTvvaDnm2zdQ3HklLUO91pqCPzXBy1JiiacEZUjQPumT2Q5vzUnvt9PGjj3GUIV
+
+# @access_token = wrjY9On242RTteYCrEZvo1y7ia0ORa
+# @refresh_token = 9ybgoXvwBhZJ5UeCzHqpPjXfKkwale
+
+@userId = 7677
+@medidorId = 129
+@codigoNivel = 1007
+@codigoPPT = 1
+@codigoMeteo = 5001
+@noticiasId= nuestro-programa-cuenta-con-canal-de-difusion-en-whatsapp
+################################
+
+### Token
+curl -X POST \
+  -H "Content-Type: {{contentTypeEncoded}}" \
+  -d "grant_type=client_credentials&client_id={{client_id2}}&client_secret={{client_secret2}}" \
+  {{host}}/oauth2/token/
+
+################################
+### Tipo
+
+curl -X POST http://localhost:8000/api/v1/projects/1/detections/ \
+  -H "Content-Type: multipart/form-data" \
+  -F "file=@/home/integral/Downloads/python/descarga.jpg"
