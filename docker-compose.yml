@@ -1,0 +1,72 @@
+secrets:
+  CREDS:
+    file: credentials
+
+networks:
+  djangonet:
+
+    # driver: overlay
+
+services:
+  postgres:
+    container_name: postgres
+    restart: always
+    image: postgis/postgis:15-master
+    environment:
+      - POSTGRES_DB=${POSTGRESQL_DATABASE:-postgres}
+      - POSTGRES_USER=${POSTGRESQL_USERNAME:-postgres}
+      - POSTGRES_PASSWORD=${POSTGRESQL_PASSWORD:-postgres}
+    volumes:
+      - ../djangoData/database:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+    networks:
+      - djangonet
+
+  minio:
+    image: minio/minio:latest
+    container_name: minio_datalake
+    ports:
+      - '9095:9000'
+      - '9001:9001'
+    environment:
+      - MINIO_ACCESS_KEY=minio_access_key
+      - MINIO_SECRET_KEY=minio_secret_key
+    volumes:
+      - minio_data:/data
+      - ../IntegralData/datalake:/data
+    secrets:
+      - CREDS
+    command: server /data --console-address ":9001"
+    networks:
+      - djangonet
+
+
+  backend:
+    container_name: backend
+    #platform: linux/arm64/v8
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    image: djangoproject/backend:latest
+    #command: bash -c "./run_djangoapi.sh"
+    volumes:
+      - ./backend:/usr/src/app
+      - ../djangoData/staticfiles:/usr/src/app/data/staticfiles
+      - ../djangoData/mediafiles:/usr/src/app/data/mediafiles
+    secrets:
+      - CREDS
+    ports:
+      - 8000:8000
+      - 5678:5678
+    networks:
+      - djangonet
+    depends_on:
+      - minio
+      - postgres
+        # condition: service_healthy
+        # condition: service_healthy
+
+volumes:
+  postgres_data:
+  minio_data:
