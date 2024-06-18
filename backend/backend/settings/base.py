@@ -51,7 +51,7 @@ MATERIAL_ADMIN_SITE = {
     "MAIN_HOVER_COLOR": "#007676",
     # "PROFILE_PICTURE": "files/dagran2.png",  # Admin site profile picture (path to static should be specified)
     # Admin site profile background (path to static should be specified)
-    "PROFILE_BG": "files/logo_integral_estandar_esp.png",
+    "PROFILE_BG": "files/logo_integral.png",
     # Admin site logo on login page (path to static should be specified)
     "LOGIN_LOGO": "",
     # Admin site background on login/logout pages (path to static should be specified)
