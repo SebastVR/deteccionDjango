@@ -12,7 +12,7 @@
     {% else %}
         <img src="{% static 'material/admin/images/login-bg-'|add:current_theme|add:'.jpg' %}" alt="profile background">
     {% endif %}
-    <div class="card-title">
+    <div class="card-title" style="color: black;">
         <strong>{% firstof user.get_short_name user.username|default_if_none:'' %}</strong><br>
         <small>{{ user.email|default_if_none:'' }}</small>
     </div>

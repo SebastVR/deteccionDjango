@@ -7,8 +7,11 @@ class Materials(models.Model):
     nombre = models.CharField(max_length=100, unique=True)
     descripcion = models.CharField(max_length=255, blank=True)
     unidad = models.CharField(max_length=255, blank=True)
-    imagen = models.ImageField(upload_to="image/materials", blank=True, null=True)
-    created_at = models.DateTimeField(default=datetime.utcnow)
+    imagen = models.ImageField(
+        upload_to="image/materials",
+        blank=True,
+        null=True,
+    )
 
     def __str__(self):
         return self.nombre
@@ -25,16 +28,16 @@ class DetectionMaterials(models.Model):
     proyecto = models.ForeignKey(
         Projects, related_name="proyecto_materials", on_delete=models.CASCADE
     )
-    material = models.ForeignKey(
-        Materials, related_name="detection_materials", on_delete=models.CASCADE
-    )
+    # material = models.ForeignKey(
+    #     Materials, related_name="detection_materials", on_delete=models.CASCADE
+    # )
     imagen_original = models.ImageField(
         upload_to="original/materials", blank=True, null=True
     )
     imagen_procesada = models.ImageField(
         upload_to="procesada/materials", blank=True, null=True
     )
-    cantidad = models.FloatField(default=0)
+    # cantidad = models.FloatField(default=0)
     descripcion = models.CharField(max_length=255, blank=True)
     latitud = models.DecimalField(max_digits=10, decimal_places=7, blank=True)
     longitud = models.DecimalField(max_digits=10, decimal_places=7, blank=True)
@@ -49,3 +52,25 @@ class DetectionMaterials(models.Model):
         # ordering = ["nombre"]
         verbose_name = "Detección Material"
         verbose_name_plural = "Detección Materiales"
+
+
+class AuxMaterials(models.Model):
+    deteccion = models.ForeignKey(
+        Materials, related_name="detection", on_delete=models.CASCADE
+    )
+    deteccion_materials = models.ForeignKey(
+        DetectionMaterials,
+        related_name="detection_materials",
+        on_delete=models.CASCADE,
+    )
+    cantidad = models.PositiveIntegerField(default=0)
+
+    def __str__(self):
+        return self.deteccion
+
+    class Meta:
+        app_label = "detection"
+        db_table = "aux_materials"
+        # ordering = ["nombre"]
+        verbose_name = "Aux Matertials"
+        verbose_name_plural = "Aux Materials"

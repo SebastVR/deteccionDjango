@@ -1,0 +1,12 @@
+.required {
+  font-weight: 300;
+}
+
+.required::before {
+  content: '*' !important;
+  height: fit-content !important;
+}
+
+#header {
+  height: 77px !important;
+}

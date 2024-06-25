@@ -1,11 +1,17 @@
 from django.contrib.gis import admin
 from detection import models
 
+# from django.conf import settings as _settings
 
-# class FotoEstacionMantenimientoInline(admin.TabularInline):
-#     model = models.FotoMantenimiento
-#     extra = 1
-#     fields = ["mantenimiento", "nombre", "foto"]
+# condition = (
+#     _settings.MEDIA_URL if _settings.ENVIRONMENT != "testing" else _settings.STATIC_URL
+# )
+
+
+# class BaseAdmin(admin.ModelAdmin):
+#     class Media:
+#         css_path = f"{condition}css/custom_styles.css"
+#         css = {"all": (css_path,)}
 
 
 @admin.register(models.SST)
@@ -36,25 +42,32 @@ class SSTAdmin(admin.ModelAdmin):
     search_fields = ["nombre"]
 
 
+class AuxSSTInline(admin.TabularInline):
+    model = models.AuxSST
+    extra = 1
+
+
 @admin.register(models.DetectionSST)
 class DetectionSSTAdmin(admin.ModelAdmin):
     # actions = [download_csv_action, download_xlsx_action]
     # extended_actions = ["download_csv", "download_xlsx"]
+    inlines = [AuxSSTInline]
+
     icon_name = "local_drink"
     list_select_related = True
     fields = (
-        ("proyecto", "deteccion"),
+        ("proyecto"),
         ("imagen_original", "imagen_procesada"),
-        ("cantidad", "descripcion"),
+        ("descripcion"),
         ("latitud", "longitud"),
         ("created_at"),
     )
     list_display = [
         "proyecto",
-        "deteccion",
+        # "deteccion",
         "imagen_original",
         "imagen_procesada",
-        "cantidad",
+        # "cantidad",
         "descripcion",
         "latitud",
         "longitud",
@@ -62,14 +75,14 @@ class DetectionSSTAdmin(admin.ModelAdmin):
     ]
     list_display_links = [
         "proyecto",
-        "deteccion",
+        # "deteccion",
         "imagen_original",
         "imagen_procesada",
-        "cantidad",
+        # "cantidad",
         "descripcion",
         "latitud",
         "longitud",
         "created_at",
     ]
-    list_filter = ["proyecto", "deteccion"]
-    search_fields = ["proyecto", "deteccion"]
+    list_filter = ["proyecto"]
+    search_fields = ["proyecto"]

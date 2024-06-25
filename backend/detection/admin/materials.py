@@ -20,46 +20,47 @@ class Materialsdmin(admin.ModelAdmin):
         ("descripcion"),
         ("unidad"),
         ("imagen"),
-        ("created_at"),
     )
     list_display = [
         "nombre",
         "descripcion",
         "unidad",
         "imagen",
-        "created_at",
     ]
     list_display_links = [
         "nombre",
         "descripcion",
         "unidad",
         "imagen",
-        "created_at",
     ]
     list_filter = ["nombre"]
     search_fields = ["nombre"]
+
+
+class AuxMaterialsnline(admin.TabularInline):
+    model = models.AuxMaterials
+    extra = 1
 
 
 @admin.register(models.DetectionMaterials)
 class DetectionMaterialsAdmin(admin.ModelAdmin):
     # actions = [download_csv_action, download_xlsx_action]
     # extended_actions = ["download_csv", "download_xlsx"]
+    inlines = [AuxMaterialsnline]
 
     icon_name = "local_drink"
     list_select_related = True
     fields = (
-        ("proyecto", "material"),
+        ("proyecto"),
         ("imagen_original", "imagen_procesada"),
-        ("cantidad", "descripcion"),
+        ("descripcion"),
         ("latitud", "longitud"),
         ("created_at"),
     )
     list_display = [
         "proyecto",
-        "material",
         "imagen_original",
         "imagen_procesada",
-        "cantidad",
         "descripcion",
         "latitud",
         "longitud",
@@ -67,14 +68,12 @@ class DetectionMaterialsAdmin(admin.ModelAdmin):
     ]
     list_display_links = [
         "proyecto",
-        "material",
         "imagen_original",
         "imagen_procesada",
-        "cantidad",
         "descripcion",
         "latitud",
         "longitud",
         "created_at",
     ]
-    list_filter = ["proyecto", "material"]
-    search_fields = ["proyecto", "material"]
+    list_filter = ["proyecto"]
+    search_fields = ["proyecto"]

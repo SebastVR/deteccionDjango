@@ -165,7 +165,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, "data/mediafiles/")
 MEDIA_URL = "/mediafiles/"
 
 STATICFILES_DIRS = [
-    # ("static", os.path.join(BASE_DIR, "static/static/")),
+    ("css", os.path.join(BASE_DIR, "static/css/")),
     ("files", os.path.join(BASE_DIR, "static/files/")),
 ]
 # Internationalization

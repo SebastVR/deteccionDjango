@@ -49,16 +49,22 @@ class SignsAdmin(admin.ModelAdmin):
     search_fields = ["tipo", "descripcion"]
 
 
+class AuxSignsInline(admin.TabularInline):
+    model = models.AuxSigns
+    extra = 1
+
+
 @admin.register(models.DetectionSigns)
 class DetectionSignsAdmin(admin.ModelAdmin):
     # actions = [download_csv_action, download_xlsx_action]
     # extended_actions = ["download_csv", "download_xlsx"]
+    inlines = [AuxSignsInline]
     icon_name = "local_drink"
     list_select_related = True
     fields = (
         ("proyecto", "senal"),
         ("imagen_original", "imagen_procesada"),
-        ("cantidad", "descripcion"),
+        ("descripcion"),
         ("latitud", "longitud"),
         ("created_at"),
     )
@@ -84,5 +90,5 @@ class DetectionSignsAdmin(admin.ModelAdmin):
         "longitud",
         "created_at",
     ]
-    list_filter = ["proyecto", "senal"]
-    search_fields = ["proyecto", "senal"]
+    list_filter = ["proyecto"]
+    search_fields = ["proyecto"]

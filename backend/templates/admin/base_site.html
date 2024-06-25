@@ -9,8 +9,28 @@
             font-family: 'Material Icons';
             font-style: normal;
             font-weight: 400;
+            font-header: 1000;
             src: url('{% static 'material/fonts/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2' %}') format('woff2');
         }
+        header {
+            height: 50px !important; /* Ajusta esta altura según tus necesidades */
+        }
+
+        .main-header {
+            height: 50px !important; /* Ajusta esta altura según tus necesidades */
+        }
+
+        .main-header .header {
+            height: 50px !important; /* Asegúrate de ajustar también el contenido interno */
+        }
+        {% comment %} .nav-wrapper .brand-logo img {
+            height: 100% !important;
+            max-height: 100% !important;
+        }
+
+        .nav-wrapper .brand-logo {
+            line-height: 50px !important; /* Ajusta esta altura según tus necesidades */
+        } {% endcomment %}
     </style>
     <link rel="stylesheet" type="text/css" href="{% static 'material/admin/css/base_site.min.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'material/admin/css/autocomplete.min.css' %}">
@@ -49,6 +69,7 @@
                     font-family: 'Helvetica Neue LT Std', sans-serif !important;
                 }
             </style>
+            
             <link rel="stylesheet" type="text/css" href="{% static 'material/admin/css/base_site-theme.min.css' %}">
         {% endif %}
     {% endblock %}
@@ -60,7 +81,7 @@
         <div class="nav-wrapper">
             <h1 id="site-name">
                 <a href="{% url 'admin:index' %}">
-                    <img src="{% static 'files/logo_integral_estandar_esp.png' %}" alt="Integral ingenieros consultores" width="182" height="77"  style="padding:8px;"/>
+                    <img src="{% static 'files/logo_integral_blanco.png' %}" alt="Integral ingenieros consultores" width="182" height="77"  style="padding:8px;"/>
                     {% comment %} <img src="{% static 'files/logos-blanco.png' %}" alt="LOGOS" width="367" height="64" style="padding:8px;" /> {% endcomment %}
                 </a>
             </h1>

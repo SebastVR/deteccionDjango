@@ -7,15 +7,10 @@ from django.core.exceptions import ObjectDoesNotExist
 from django.conf import settings as _settings
 from detection.models import (
     SST,
-    DetectionSST,
-    Materials,
-    DetectionMaterials,
     Projects,
     TypeSigns,
     Signs,
-    DetectionSigns,
 )
-from datetime import datetime
 from detection.info import TIPO_PROJECT
 
 PATH_DATA_APP = os.path.join(_settings.STATIC_ROOT, "files/")
@@ -95,9 +90,9 @@ df_type_sst = pd.read_csv(
 def main_type_sst():
     for index, row in df_type_sst.iterrows():
         try:
-            type_sst = SST.objects.get(nombre=row.codigo)
+            type_sst = SST.objects.get(codigo=row.codigo)
         except ObjectDoesNotExist:
-            type_sst = SST(nombre=row.codigo)
+            type_sst = SST(codigo=row.codigo)
         type_sst.nombre = row.nombre
         type_sst.descripcion = row.descripcion
         type_sst.full_clean()
